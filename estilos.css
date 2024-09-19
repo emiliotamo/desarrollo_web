@@ -1,4 +1,42 @@
 
 h1{
+color: blue;
+text-align: center; 
+font-weight: bold;  
+text-decoration: underline;
+}
+h2{
+    color: blue;
+    text-align: center; 
+    font-weight: bold;  
+    
+    }
+body{
+    background-color: aquamarine;
+}
+hr{
+    border: 0; 
+    height: 3px; 
+    background-color: blue; 
+    margin: 0px 0;  
+}
 
+table {
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+}
+th, td {
+    border: 2px solid white;
+    padding: 12px; 
+    text-align: left; 
+}
+th {
+    background-color: blue; /* Fondo verde para los encabezados */
+    color: white; /* Texto blanco para los encabezados */
+}
+
+
+tr:hover {
+    background-color: #ddd; /* Fondo gris oscuro al pasar el ratón por encima */
 }
