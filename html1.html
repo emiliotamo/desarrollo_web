@@ -9,7 +9,7 @@
 <body>
    <h1>TechZone Store</h1>
    <hr>
-   <h2>Planificación de la pagina web</h2>
+   <h2>PLANIFICACION DE LA WEB</h2>
 <br>
 <br>
 
@@ -41,8 +41,85 @@
             <td>Notificaciones y seguimiento de envio </td>
             <td>2 semanas</td>
         </tr>
+        <tr></tr>
+            <td>TOTAL </td>
+            <td>11/12 semanas</td>
+        </tr>
+    
         
     </tbody>
 </table>
+<BR>
+</BR>
+<HR></HR>
+
+<H2>DESCRIPCIÓN DE REQUISITOS</H2>
+
+<h3>Requisitos funcionales</h3>
+<uL>
+    <LI>Catalogo: Los usuarios podrán ver todos los productos organizados por categorías.</LI>
+    <br>
+    <li>Carrito: Permite a los usuarios agregar, revisar y modificar productos antes de la compra. Facilita la gestión de los artículos seleccionados </li>
+    <br>
+    <li>Cuentas de ususario:Permiten crear un perfil, guardar información personal y ver el historial de compras, agilizando futuras transacciones.</li>
+   <br>
+    <li>Control de pedidos: Permite a los usuarios y administradores ver y gestionar el estado de las órdenes en proceso, completadas o canceladas</li>
+    <br>
+    <li>Opciones de pago: Ofrece diferentes métodos de pago (tarjetas, PayPal, transferencias, etc.), proporcionando flexibilidad al cliente.</li>
+    <br>
+    <li>Envío: Permite configurar y elegir métodos de envío, calculando costos y tiempos de entrega según la ubicación.</li>
+   <br>
+    <li>Seguimiento de envío: Proporciona a los usuarios información en tiempo real sobre el estado y la ubicación de sus pedidos en tránsito.</li>
+    <br>
+    <li>Notificaciones:Envía alertas al usuario sobre cambios en pedidos, envíos, promociones o actualizaciones importantes del sitio. </li>
+</uL>
+<br>
+<h3>Requisitos no funcionales</h3>
+<ul>
+    <li>Rendimiento: a interfaz debe ser fácil de usar e intuitiva, con una navegación fluida entre las secciones del catálogo, carrito de compras y gestión de cuentas</li>
+    <br>
+    
+    <li>Escalabilidad:La infraestructura debe ser capaz de crecer y adaptarse para soportar un aumento en la cantidad de usuarios, productos y transacciones sin afectar su rendimiento.</li>
+    <br>
+    <li>Seguridad:El sitio debe garantizar la protección de los datos personales y de pago de los usuarios mediante protocolos de seguridad </li>
+    <br>
+    <li>Usabilidad: La interfaz debe ser intuitiva, fácil de navegar y accesible para todo tipo de usuarios, incluyendo aquellos con discapacidades.</li>
+   <br>
+    <li>Disponibilidad:a plataforma debe estar disponible 24/7, con un mínimo de tiempo de inactividad durante actualizaciones o mantenimiento. </li>
+   <br>
+    <li>Compatibilidad:El sitio debe ser compatible con distintos navegadores (Chrome, Firefox, Safari, etc.) y sistemas operativos</li>
+   <br>
+    <li>Mantenimiento:El código de la aplicación debe estar bien documentado para facilitar futuras actualizaciones o correcciones.</li>
+</ul>
+
+<hr>
+<h2>DISEÑO DE LA ARQUITECTURA </h2>
+<ol>
+    <li>Frontend desarrollado en React para una interfaz ágil y responsiva, adaptada a móviles y tablets.</li>
+    <br>
+    <li>Backend con Node.js y una API REST para manejar operaciones de usuario, carrito y pagos.</li>
+    <br>
+    <li>Base de datos MySql para gestionar los productos, usuarios y pedidos.</li>
+    <br>
+    <li>Integración de la pasarela de pago Stripe para tarjetas y Coinbase Commerce para criptomonedas.</li>
+    
+</ol>
+<hr>
+<h2>IMPLEMENTACIÓN</h2>
+
+<OL>
+    <LI>Interfaz de Usuario </LI>
+    <UL> <LI>Diseño Responsive: Optimización para dispositivos móviles y desktop.</LI>
+    <LI>Menú de navegación claro: Categorías del catálogo bien organizadas</LI>
+    <LI>Motor de búsqueda avanzado: Filtros por precio, popularidad, disponibilidad, etc.</LI></UL>
+    <BR></BR>
+    <LI>Carrito de Compras Funcional:</LI>
+    <UL><LI>Actualización en tiempo real: Reflejar los cambios en el carrito sin recargar la página.</LI>
+    <LI>Guardar el carrito: Opciones para guardar productos para más tarde o continuar con el carrito en visitas futuras.</LI>
+    <LI>Aplicar cupones y códigos de descuento: Validación en tiempo real de descuentos.</LI></UL>
+    <br>
+    <LI></LI>
+    <LI></LI>
+</OL>
 </body>
 </html>
